@@ -12,7 +12,7 @@
       >
         qiankun基座
       </div>
-      <el-menu default-active="/home" router :default-openeds="['1', '3']">
+      <el-menu :default-active="$route.path" router :default-openeds="['1', '3']">
         <el-menu-item index="/home">
           <span slot="title">首页</span>
         </el-menu-item>
@@ -49,6 +49,7 @@
 
 <script>
 import { start } from 'qiankun';
+import route from '@/router'
 export default {
   mounted() {
     if (!window.qiankunStarted) {

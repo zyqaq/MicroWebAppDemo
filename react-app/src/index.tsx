@@ -8,7 +8,6 @@ import './public-path.js'
 let root: any;
 function render(props: any) {
   const { container } = props
-  console.log(container)
   const dom = container ? container.querySelector('#root') : document.getElementById('root')
   const basename = container ? '/react-app' : '/'
   root = createRoot(dom)

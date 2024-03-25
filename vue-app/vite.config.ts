@@ -11,7 +11,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    qiankun('sub-vue', { // 配置qiankun插件
+    qiankun('vue-app', { // 配置qiankun插件
       useDevMode: true
     })
   ]

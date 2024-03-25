@@ -6,6 +6,7 @@
 <template>
   <div class="app">
     <h2>vue3 子应用</h2>
+    <img src="../src/assets/vue.svg">
     <div class="menu">
       <router-link to="/">list</router-link>
       <router-link to="/detail">detail</router-link>
