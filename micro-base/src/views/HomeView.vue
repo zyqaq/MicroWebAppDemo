@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <button class="base_button">默认按钮</button>
+    <button class="base_button" style="margin-right: 10px;">默认按钮</button>
+    <button class="base_button" @click="$router.replace('/react-app')">replace 去react-app</button>
     <el-table :data="tableData">
       <el-table-column prop="date" label="日期" width="140">
       </el-table-column>

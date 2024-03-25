@@ -16,6 +16,7 @@
         <el-menu-item index="/home">
           <span slot="title">首页</span>
         </el-menu-item>
+        <el-menu-item index="/vue2-app">vue2-app</el-menu-item>
         <el-menu-item index="/react-app">react-app</el-menu-item>
         <el-menu-item index="/umi-app">umi-app</el-menu-item>
         <el-submenu index="/vue-app">
@@ -48,7 +49,8 @@
 </template>
 
 <script>
-import { start } from 'qiankun';
+// import { start } from 'qiankun';
+import { start } from '../micro-fe';
 import route from '@/router'
 export default {
   mounted() {
