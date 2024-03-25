@@ -12,7 +12,11 @@
       >
         qiankun基座
       </div>
-      <el-menu :default-active="$route.path" router :default-openeds="['1', '3']">
+      <el-menu
+        :default-active="$route.path"
+        router
+        :default-openeds="['1', '3']"
+      >
         <el-menu-item index="/home">
           <span slot="title">首页</span>
         </el-menu-item>
@@ -49,21 +53,9 @@
 </template>
 
 <script>
-// import { start } from 'qiankun';
-import { start } from '../micro-fe';
-import route from '@/router'
+import route from "@/router";
 export default {
-  mounted() {
-    if (!window.qiankunStarted) {
-      window.qiankunStarted = true;
-      start({
-        sandbox: {
-          // strictStyleIsolation:true,
-          experimentalStyleIsolation: true,
-        }
-      });
-    }
-  }
+  mounted() {},
 };
 </script>
 <style>

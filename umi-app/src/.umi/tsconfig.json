@@ -19,7 +19,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "C:\\Users\\15738\\Desktop\\demo\\qiankunDemo\\umi-app\\node_modules\\umi"
+        "C:\\Users\\Administrator\\Desktop\\work\\MicroWebAppDemo\\umi-app\\node_modules\\umi"
       ],
       "umi/typings": [
         "src/.umi/typings"

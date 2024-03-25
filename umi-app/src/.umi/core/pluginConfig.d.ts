@@ -219,13 +219,4 @@ allowEmoji?: boolean
 run?: {
 globals?: string[]
 }
-qiankun?: ({
-slave?: {
-
-}
-master?: {
-
-}
-externalQiankun?: boolean
-} | boolean)
 }
